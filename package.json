@@ -17,7 +17,6 @@
   "scripts": {
     "ts": "tsc -w",
     "build": "rm -rf lib && tsc -p src",
-    "postinstall": "npm run build",
     "test": "jest --watchAll -i",
     "changelog": "standard-version"
   },
