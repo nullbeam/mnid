@@ -1,4 +1,6 @@
-import { encode, decode, isMNID } from '../index'
+const { MNID } = require('../lib/index');
+
+const { encode, decode, isMNID } = MNID;
 
 describe('encode', () => {
   it('main-net', () => {
@@ -38,6 +40,7 @@ describe('encode', () => {
 })
 
 describe('decode', () => {
+
   it('main-net', () => {
     expect(decode('2nQtiQG6Cgm1GYTBaaKAgr76uY7iSexUkqX')).toEqual(
       {
