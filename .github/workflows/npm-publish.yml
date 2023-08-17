@@ -18,6 +18,9 @@ jobs:
           node-version: 16
       - run: npm ci
       - run: npm run test:ci
+      - run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
       - run: npm run changelog
       - run: git push --follow-tags origin master
 
