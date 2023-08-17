@@ -4,7 +4,7 @@
 name: Update package version
 
 on:
-  # workflow_dispatch:
+  workflow_dispatch:
   # release:
   #   types: [created]
   pull_request:
