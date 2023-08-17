@@ -23,7 +23,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
       - run: npm run changelog
       # - run: git push --follow-tags origin master
-      - name: Commit & Push changes
+      - name: Push tags
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
