@@ -18,6 +18,7 @@
     "ts": "tsc -w",
     "build": "rm -rf lib && tsc -p src",
     "test": "jest --watchAll -i",
+    "test:ci": "jest -i",
     "changelog": "standard-version"
   },
   "files": [
