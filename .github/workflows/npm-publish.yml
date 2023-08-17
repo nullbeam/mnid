@@ -7,10 +7,10 @@ on:
   # workflow_dispatch:
   # release:
   #   types: [created]
-  branches:
-      - 'develop/**'
   pull_request:
     types: [closed]
+    branches:
+        - 'develop/**'
 
 jobs:
   build:
