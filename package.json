@@ -20,6 +20,11 @@
     "test": "jest --watchAll -i",
     "changelog": "standard-version"
   },
+  "files":[
+    "lib",
+    "index.d.ts",
+    "index.js"
+  ],
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
