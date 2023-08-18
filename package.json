@@ -1,6 +1,6 @@
 {
   "name": "@nullbeam/mnid",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Multi Network Identifier - Blockchain Address Encoding",
   "main": "lib/index.js",
   "author": "Jerson Miranda <jerson.miranda@outlook.es>",
