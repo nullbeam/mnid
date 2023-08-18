@@ -7,10 +7,6 @@ on:
   workflow_dispatch:
   release:
     types: [created]
-  pull_request:
-    types: [closed]
-  branches:
-    - 'master'
 
 jobs:
   build:
